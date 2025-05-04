@@ -13,3 +13,5 @@ A.menu:link { color: yellow; background:#000000 }
 A.menu:visited { color: white; background:#000000 }
 A.menu:hover { color: green; background:#000000 }
 A.menu:active { color: lime; background:#000000 }
+.footer-cell { background-color: #ffffff; vertical-align: top; border-radius: 3px; padding: 18px; margin: 0 6px; position: relative; top: 6px; }
+#body-table { margin-bottom: 16px; width:997px; border-width: 5px; border-color:#000000; background-color:#00CC00; margin-left: auto; margin-right: auto; }
