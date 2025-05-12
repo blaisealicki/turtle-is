@@ -1,17 +1,113 @@
-body { font-family: 'Arial'; background:#00CC00; color:#000000; margin:0 }
-p.green { font-family: 'Arial'; color:green; background:white }
-p.black { font-family: 'Arial'; color:black }
-h1.yellow { font-family: 'Arial'; color:yellow }
-h2 { font-family: 'Arial'; color:black }
-h3.a1 { font-family: 'Arial'; color:blue; background:white }
-h3.a2 { font-family: 'Arial'; color:red; background:white }
-h6.warn { font-family: Arial; color:red; background:white }
-td.menu { border-width: thick; border-color:#00ff00; border-style:outset }
-td.menu { font-family: 'Arial'; font-size:10pt; font-weight:bold; text-align:center; color:yellow; background:black }
-td.nobrd { border-style:none }
-A.menu:link { color: yellow; background:#000000 }
-A.menu:visited { color: white; background:#000000 }
-A.menu:hover { color: green; background:#000000 }
-A.menu:active { color: lime; background:#000000 }
-.footer-cell { background-color: #ffffff; vertical-align: top; border-radius: 3px; padding: 18px; margin: 0 6px; position: relative; top: 6px; }
-#body-table { margin-bottom: 16px; width:997px; border-width: 5px; border-color:#000000; background-color:#00CC00; margin-left: auto; margin-right: auto; }
+body {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    background: #72b800;
+    color: #000;
+    margin: 0;
+}
+
+p.green {
+    color: green;
+    background: #fff;
+}
+
+p.black {
+    color: black;
+}
+
+a.header {
+    color: transparent;
+    background-image: linear-gradient(#e8fd00, #fff, #e8fd00);
+    -webkit-text-stroke: 1px #000;
+    background-clip: text;
+    font-size: 50px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+h1.yellow {
+    color: #e8fd00;
+}
+
+h2 {
+    color: #000;
+}
+
+h3.a1 {
+    color: blue;
+    background: #fff;
+}
+
+h3.a2 {
+    color: red;
+    background: #fff;
+}
+
+h6.warn {
+    color: red;
+    background: #fff;
+}
+
+td.menu {
+    border-width: thick;
+    border-color: #72b800;
+    border-style: outset;
+}
+
+td.menu {
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    color: #e8fd00;
+    background: #000;
+}
+
+td.nobrd {
+    border-style: none
+}
+
+A.menu:link {
+    color: #e8fd00;
+    background: #000;
+    cursor: pointer;
+}
+
+A.menu:visited {
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+}
+
+A.menu:hover {
+    color: green;
+    background: #000;
+    cursor: pointer;
+}
+
+A.menu:active {
+    color: #72b800;
+    background: #000;
+    cursor: pointer;
+}
+
+.footer-cell {
+    background-color: #fff;
+    vertical-align: top;
+    border-radius: 6px;
+    padding: 18px;
+    margin: 0 6px;
+    position: relative;
+    top: 6px;
+}
+
+#body-table {
+    margin-bottom: 16px;
+    width: 997px;
+    border-width: 5px;
+    border-color: #000;
+    background-color: #72b800;
+    margin-left: auto;
+    margin-right: auto;
+}

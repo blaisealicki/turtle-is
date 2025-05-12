@@ -2,13 +2,11 @@ var element = document.getElementById('body-table');
 // Header
 element.insertAdjacentHTML('afterbegin', `<tr>
 			<td height=128 width=128>
-				<a href="./index.html"><img src="./images/turtleisdot.jpg"></a><br>
 			</td>
 			<td height=128 width=741>
-				<a href="./index.html"><img src="./images/tisbanner1.jpg"></a><br>
+				<a href="./index.html" class="header">TURTLE INTERACTIVE SOFTWARE</a><br>
 			</td>
 			<td height=128 width=128>
-				<a href="./index.html"><img src="./images/turtleisdot.jpg"></a><br>
 			</td>
 		</tr>`);
 // Footer
