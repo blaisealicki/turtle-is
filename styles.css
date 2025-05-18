@@ -6,7 +6,7 @@ body {
 }
 
 p.green {
-    color: #008000;
+    color: #080;
     background: #fff;
 }
 
@@ -36,19 +36,8 @@ h2 {
     color: #000;
 }
 
-.a1 {
-    color: #0000ff;
-    background: #fff;
-}
-
-.a2 {
-    color: #ff0000;
-    background: #fff;
-}
-
-h6.warn {
-    color: #ff0000;
-    background: #fff;
+.warn {
+    color: #f00;
 }
 
 td.menu {
@@ -82,7 +71,7 @@ A.menu:visited {
 }
 
 A.menu:hover {
-    color: #008000;
+    color: #080;
     background: #000;
     cursor: pointer;
 }
@@ -121,9 +110,25 @@ footer {
     border-radius: 6px;
 }
 
-.blaise { color: #008000; }
-.crazyboy { color: #ff0000; }
-.eddie { color: #ff00ff; }
+.blaise { color: #080; }
+.crazyboy { color: #f00; }
+.eddie { color: #f0f; }
+.kurt { color: #808080; }
 
 table { border-collapse: collapse; width: 100%; }
-td { border: 1px solid #000; }
+td { border: 1px solid #000; vertical-align: top; }
+.label { color: #00f; }
+.terrakon { color: #800080; }
+.k { color: #f00; }
+.mart { color: #00f; }
+.mountain { color: #0f0; }
+.dew { color: #f00; }
+.sol { color: #f98700; }
+.mm { color: #2896fe; }
+.ix { color: #923eb8; }
+.lo { color: #03c0ee; }
+.fsi { color: #0e1d4a; }
+.indent { text-indent: .5in; }
+
+.two-columns { columns: 2; }
+.strike { text-decoration: line-through; }
