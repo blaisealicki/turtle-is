@@ -1,17 +1,42 @@
 body {
-    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Calibri, "Trebuchet MS", sans-serif;
     background: #72b800;
     color: #000;
     margin: 0;
 }
 
-p.green {
-    color: #080;
-    background: #fff;
+h1 {
+    margin-top: 0;
+    padding-top: 12px;
 }
 
-p.black {
-    color: black;
+h2 {
+    color: #000;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #000;
+    vertical-align: top;
+}
+
+header {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #fff;
+    vertical-align: top;
+    border-radius: 6px;
+    padding: 18px;
+    position: relative;
+    top: 6px;
+    font-size: 0.8em;
 }
 
 a.header {
@@ -27,74 +52,94 @@ a.header {
     display: block;
 }
 
-h1 { margin-top: 0; padding-top: 12px; }
-h1.yellow {
-    color: #e8fd00;
-}
-
-h2 {
-    color: #000;
+.article {
+    background-color: #fff;
+    padding: 0 24px 12px 24px;
+    border-radius: 6px;
 }
 
 .warn {
     color: #f00;
 }
 
-td.menu {
-    border-width: thick;
-    border-color: #72b800;
-    border-style: outset;
-}
-
-td.menu {
-    font-size: 10pt;
-    font-weight: bold;
-    text-align: center;
-    color: #e8fd00;
-    background: #000;
-}
-
-td.nobrd {
-    border-style: none
-}
-
-A.menu:link {
-    color: #e8fd00;
-    background: #000;
-    cursor: pointer;
-}
-
-A.menu:visited {
-    color: #fff;
-    background: #000;
-    cursor: pointer;
-}
-
-A.menu:hover {
+.blaise {
     color: #080;
-    background: #000;
-    cursor: pointer;
 }
 
-A.menu:active {
-    color: #72b800;
-    background: #000;
-    cursor: pointer;
+.crazyboy {
+    color: #f00;
 }
 
-header {
-    margin-top: 15px;
-    margin-bottom: 15px;
+.eddie {
+    color: #f0f;
 }
 
-footer {
-    background-color: #fff;
-    vertical-align: top;
-    border-radius: 6px;
-    padding: 18px;
-    position: relative;
-    top: 6px;
-    font-size: .8em;
+.kurt {
+    color: #808080;
+}
+
+.label {
+    color: #00f;
+}
+
+.terrakon {
+    color: #800080;
+}
+
+.k {
+    color: #f00;
+}
+
+.mart {
+    color: #00f;
+}
+
+.mountain {
+    color: #0f0;
+}
+
+.dew {
+    color: #f00;
+}
+
+.ferris {
+    color: #800000;
+}
+
+.state {
+    color: #808000;
+}
+
+.sol {
+    color: #f98700;
+}
+
+.mm {
+    color: #2896fe;
+}
+
+.ix {
+    color: #923eb8;
+}
+
+.lo {
+    color: #03c0ee;
+}
+
+.fsi {
+    color: #0e1d4a;
+}
+
+.indent {
+    text-indent: 0.5in;
+}
+
+.two-columns {
+    columns: 2;
+}
+
+.strike {
+    text-decoration: line-through;
 }
 
 #body {
@@ -104,33 +149,74 @@ footer {
     margin-right: auto;
 }
 
-.article {
-    background-color: #fff;
-    padding: 0 24px 12px 24px;
-    border-radius: 6px;
+ul.nav {
+    width: 770px;
+    margin: 0 auto 6px auto;
+    padding: 0;
 }
 
-.blaise { color: #080; }
-.crazyboy { color: #f00; }
-.eddie { color: #f0f; }
-.kurt { color: #808080; }
+ul.nav > li {
+    display: inline-block;
+    width: 100px;
+    cursor: default;
+    background-color: #e8fd00;
+    padding: 3px;
+    text-align: center;
+    position: relative;
+}
 
-table { border-collapse: collapse; width: 100%; }
-td { border: 1px solid #000; vertical-align: top; }
-.label { color: #00f; }
-.terrakon { color: #800080; }
-.k { color: #f00; }
-.mart { color: #00f; }
-.mountain { color: #0f0; }
-.dew { color: #f00; }
-.ferris { color: #800000; }
-.state { color: #808000; }
-.sol { color: #f98700; }
-.mm { color: #2896fe; }
-.ix { color: #923eb8; }
-.lo { color: #03c0ee; }
-.fsi { color: #0e1d4a; }
-.indent { text-indent: .5in; }
+ul.nav > li > ul {
+    display: none;
+}
 
-.two-columns { columns: 2; }
-.strike { text-decoration: line-through; }
+ul.nav > li:hover {
+    background-color: #000;
+    color: #e8fd00;
+}
+
+ul.nav > li:hover > ul {
+    display: block;
+    position: absolute;
+    padding-left: 0;
+    left: 0;
+    top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 0 0 6px 6px;
+}
+
+ul.nav a {
+    width: 138px;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 6px;
+}
+
+ul.nav a:last-of-type {
+    border-radius: 0 0 6px 6px;
+}
+
+ul.nav a:hover {
+    background-color: #72b800;
+    color: #e8fd00;
+}
+
+ul.nav > li:hover > ul > li {
+    padding: 0;
+    width: 150px;
+    text-align: left;
+    background-color: #e8fd00;
+}
+
+ul.nav > li:hover > ul > li:last-of-type {
+    border-radius: 0 0 6px 6px;
+}
+
+ul.nav > li:hover > ul > li:first a {
+    padding-top: 3px;
+}
+
+ul.nav > li:hover > ul > li:last-of-type a {
+    padding-bottom: 3px;
+    border-radius: 0 0 6px 6px;
+}
