@@ -11,6 +11,7 @@ element.insertAdjacentHTML('afterbegin',
 		<li>Me
 			<ul>
 				<li><a href="./about-me.html">About Me</a></li>
+				<li><a href="./dnd-characters.html">D&D Characters</a></li>
 				<li><a href="./my-dvds.html">My DVDs</a></li>
 				<li><a href="./ramblings.html">Ramblings</a></li>
 				<li><a href="./im-too-tired.html">I'm Too Tired</a></li>
@@ -32,7 +33,7 @@ element.insertAdjacentHTML('afterbegin',
 			<ul>
 				<li><a href="./ode-to-my-pop.html">Ode To My Pop</a></li>
 				<li><a href="./program-journal.html">Program Journal</a></li>
-				<li><a href="./blaise01.mid">Midi Song</a></li>
+				<li><a href="./untitled-song.html">Untitled Song</a></li>
 			</ul>
 		</li>
 		<li>Projects
