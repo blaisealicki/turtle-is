@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title></title>
+	<link rel="stylesheet" href="/comic/styles.css">
+</head>
+<body>
+	<div id="body">
+		<div class="article">
+			<h1 id="title">Title</h1>
+			<p id="comic">
+				<img id="comic-image" src="" style="width: 949px">
+			</p>
+            <p id="error" class="warn"></p>            
+		</div>
+	</div>
+	<script src="/comic/header_footer.js"></script>
+    <script>
+        let allComics;
+        let currentIndex = 0;
+        const url = new URL(window.location.href);
+        const params = url.searchParams;
+        let comicName = params.get('c') || 'localandhost';
+        document.getElementsByTagName('body')[0].className = comicName;
+        fetch(`/comic/${comicName}/data.json`).then(response => response.json()).then(
+            comics => {
+                allComics = comics;
+                let currentComic = allComics.comics[currentIndex];
+                if (window.location.hash) {
+                    const newIndex  = allComics.comics.findIndex(c => c.url === window.location.hash.substring(1));
+                    if (newIndex > -1) {
+                        currentIndex = newIndex;
+                        currentComic = allComics.comics[currentIndex];
+                    }
+                }
+                document.getElementsByClassName('header')[0].innerText = allComics.header;
+                document.getElementById('title').innerText = currentComic.title;
+                document.getElementById('comic-image').src = `/comic/${allComics.path}/images/${currentComic.image}`;
+                document.getElementById('comic-date').innerText = currentComic.date;
+                window.location.hash = currentComic.url;
+                document.getElementById('error').innerText = '';
+            }
+        ).catch(error => {
+            console.error(error);
+            document.getElementById('title').innerText = 'Error';
+            document.getElementById('comic-date').innerText = '';
+            document.getElementById('error').innerText = 'Comic not found.';
+        });
+
+        function next() {
+            if (currentIndex < allComics.comics.length - 1) {
+                currentIndex++;
+            }            
+            let currentComic = allComics.comics[currentIndex];
+            document.getElementById('title').innerText = currentComic.title;
+            document.getElementById('comic-image').src = `/comic/${allComics.path}/images/${currentComic.image}`;
+            document.getElementById('comic-date').innerText = currentComic.date;
+            window.location.hash = currentComic.url;
+            document.getElementById('error').innerText = '';
+        }
+
+        function prev() {
+            if (currentIndex > 0) {
+                currentIndex--;
+            }            
+            let currentComic = allComics.comics[currentIndex];
+            document.getElementById('title').innerText = currentComic.title;
+            document.getElementById('comic-image').src = `/comic/${allComics.path}/images/${currentComic.image}`;
+            document.getElementById('comic-date').innerText = currentComic.date;
+            window.location.hash = currentComic.url;
+            document.getElementById('error').innerText = '';
+        }
+
+        function last() {
+            currentIndex = allComics.comics.length - 1;
+            let currentComic = allComics.comics[currentIndex];
+            document.getElementById('title').innerText = currentComic.title;
+            document.getElementById('comic-image').src = `/comic/${allComics.path}/images/${currentComic.image}`;
+            document.getElementById('comic-date').innerText = currentComic.date;
+            window.location.hash = currentComic.url;
+            document.getElementById('error').innerText = '';
+        }
+
+        function first() {
+            currentIndex = 0;
+            let currentComic = allComics.comics[currentIndex];
+            document.getElementById('title').innerText = currentComic.title;
+            document.getElementById('comic-image').src = `/comic/${allComics.path}/images/${currentComic.image}`;
+            document.getElementById('comic-date').innerText = currentComic.date;
+            window.location.hash = currentComic.url;
+            document.getElementById('error').innerText = '';
+        }
+    </script>
+</body>
+</html>

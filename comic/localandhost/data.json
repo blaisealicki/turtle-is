@@ -1,0 +1,318 @@
+{
+    "header": "L0C@L & H05T",
+    "path": "localandhost",
+    "comics": [
+        {
+            "title": "First Day",
+            "date": "1/4/2019",
+            "url": "first-day",
+            "image": "20190104.png"
+        },
+        {
+            "title": "Perfect Machine",
+            "date": "1/11/2019",
+            "url": "perfect-machine",
+            "image": "20190111.png"
+        },
+        {
+            "title": "Question",
+            "date": "1/18/2019",
+            "url": "question",
+            "image": "20190118.png"
+        },
+        {
+            "title": "Getting Paid",
+            "date": "1/25/2019",
+            "url": "getting-paid",
+            "image": "20190125.png"
+        },
+        {
+            "title": "Extra Coffee",
+            "date": "2/1/2019",
+            "url": "extra-coffee",
+            "image": "20190201.png"
+        },
+        {
+            "title": "Finished Code",
+            "date": "2/8/2019",
+            "url": "finished-code",
+            "image": "20190208.png"
+        },
+        {
+            "title": "Starting a Blog",
+            "date": "2/15/2019",
+            "url": "starting-a-blog",
+            "image": "20190215.png"
+        },
+        {
+            "title": "No Internet",
+            "date": "2/22/2019",
+            "url": "no-internet",
+            "image": "20190222.png"
+        },
+        {
+            "title": "Music at Work",
+            "date": "3/1/2019",
+            "url": "music-at-work",
+            "image": "20190301.png"
+        },
+        {
+            "title": "Code Review",
+            "date": "3/8/2019",
+            "url": "code-review",
+            "image": "20190308.png"
+        },
+        {
+            "title": "Helpful Direction",
+            "date": "3/15/2019",
+            "url": "helpful-direction",
+            "image": "20190315.png"
+        },
+        {
+            "title": "Delivery",
+            "date": "3/22/2019",
+            "url": "delivery",
+            "image": "20190322.png"
+        },
+        {
+            "title": "Tap Tap Tap",
+            "date": "3/29/2019",
+            "url": "tap-tap-tap",
+            "image": "20190329.png"
+        },
+        {
+            "title": "Vacation Time",
+            "date": "4/5/2019",
+            "url": "vacation-time",
+            "image": "20190405.png"
+        },
+        {
+            "title": "Not a Thank You Card",
+            "date": "4/12/2019",
+            "url": "not-a-thank-you-card",
+            "image": "20190412.png"
+        },
+        {
+            "title": "Candy Bowl",
+            "date": "4/19/2019",
+            "url": "candy-bowl",
+            "image": "20190419.png"
+        },
+        {
+            "title": "Office Window",
+            "date": "4/26/2019",
+            "url": "office-window",
+            "image": "20190426.png"
+        },
+        {
+            "title": "Common Interests",
+            "date": "5/3/2019",
+            "url": "common-interests",
+            "image": "20190503.png"
+        },
+        {
+            "title": "Hardware Upgrade",
+            "date": "5/10/2019",
+            "url": "hardware-upgrade",
+            "image": "20190510.png"
+        },
+        {
+            "title": "The Matrix",
+            "date": "5/17/2019",
+            "url": "the-matrix",
+            "image": "20190517.png"
+        },
+        {
+            "title": "Late",
+            "date": "5/24/2019",
+            "url": "late",
+            "image": "20190524.png"
+        },
+        {
+            "title": "Recruiters",
+            "date": "5/31/2019",
+            "url": "recruiters",
+            "image": "20190531.png"
+        },
+        {
+            "title": "New Computers",
+            "date": "6/7/2019",
+            "url": "new-computers",
+            "image": "20190607.png"
+        },
+        {
+            "title": "Update",
+            "date": "6/14/2019",
+            "url": "update",
+            "image": "20190614.png"
+        },
+        {
+            "title": "So Productive",
+            "date": "6/21/2019",
+            "url": "so-productive",
+            "image": "20190621.png"
+        },
+        {
+            "title": "Not Your Job",
+            "date": "6/28/2019",
+            "url": "not-your-job",
+            "image": "20190628.png"
+        },
+        {
+            "title": "Fixed It",
+            "date": "7/5/2019",
+            "url": "fixed-it",
+            "image": "20190705.png"
+        },
+        {
+            "title": "Fonts",
+            "date": "7/12/2019",
+            "url": "fonts",
+            "image": "20190712.png"
+        },
+        {
+            "title": "Not It",
+            "date": "7/19/2019",
+            "url": "not-it",
+            "image": "20190719.png"
+        },
+        {
+            "title": "Burnout",
+            "date": "7/26/2019",
+            "url": "burnout",
+            "image": "20190726.png"
+        },
+        {
+            "title": "Printing",
+            "date": "8/2/2019",
+            "url": "printing",
+            "image": "20190802.png"
+        },
+        {
+            "title": "Almost Forgot",
+            "date": "8/8/2019",
+            "url": "almost-forgot",
+            "image": "20190809.png"
+        },
+        {
+            "title": "Monkey",
+            "date": "8/16/2019",
+            "url": "monkey",
+            "image": "20190816.png"
+        },
+        {
+            "title": "CEO",
+            "date": "8/23/2019",
+            "url": "ceo",
+            "image": "20190823.png"
+        },
+        {
+            "title": "The Matrix Again",
+            "date": "8/30/2019",
+            "url": "the-matrix-again",
+            "image": "20190830.png"
+        },
+        {
+            "title": "Going for a Walk",
+            "date": "9/6/2019",
+            "url": "going-for-a-walk",
+            "image": "20190906.png"
+        },
+        {
+            "title": "iFace",
+            "date": "9/13/2019",
+            "url": "iface",
+            "image": "20190913.png"
+        },
+        {
+            "title": "Good Ol’ Times",
+            "date": "9/20/2019",
+            "url": "good-ol-times",
+            "image": "20190920.png"
+        },
+        {
+            "title": "Switching",
+            "date": "9/27/2019",
+            "url": "switching",
+            "image": "20190927.png"
+        },
+        {
+            "title": "Code Camp",
+            "date": "10/4/2019",
+            "url": "code-camp",
+            "image": "20191004.png"
+        },
+        {
+            "title": "Definitely",
+            "date": "10/11/2019",
+            "url": "definitely",
+            "image": "20191011.png"
+        },
+        {
+            "title": "Test First",
+            "date": "10/18/2019",
+            "url": "test-first",
+            "image": "20191018.png"
+        },
+        {
+            "title": "Halloween",
+            "date": "10/25/2019",
+            "url": "halloween",
+            "image": "20191025.png"
+        },
+        {
+            "title": "Switching Desks",
+            "date": "11/1/2019",
+            "url": "switching-desks",
+            "image": "20191101.png"
+        },
+        {
+            "title": "Captcha",
+            "date": "11/8/2019",
+            "url": "captcha",
+            "image": "20191108.png"
+        },
+        {
+            "title": "Important Work",
+            "date": "11/15/2019",
+            "url": "important-work",
+            "image": "20191115.png"
+        },
+        {
+            "title": "Programming Books",
+            "date": "11/22/2019",
+            "url": "programming-books",
+            "image": "20191122.png"
+        },
+        {
+            "title": "Black Friday",
+            "date": "11/29/2019",
+            "url": "black-friday",
+            "image": "20191129.png"
+        },
+        {
+            "title": "Semicolons",
+            "date": "12/06/2019",
+            "url": "semicolons",
+            "image": "20191206.png"
+        },
+        {
+            "title": "New Language",
+            "date": "12/13/2019",
+            "url": "new-language",
+            "image": "20191213.png"
+        },
+        {
+            "title": "New Job",
+            "date": "12/20/2019",
+            "url": "new-job",
+            "image": "20191220.png"
+        },
+        {
+            "title": "Success",
+            "date": "12/27/2019",
+            "url": "success",
+            "image": "20191227.png"
+        }
+    ]
+}

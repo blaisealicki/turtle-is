@@ -1,0 +1,324 @@
+{
+    "header": "Goblins of Stinkmarsh",
+    "path": "goblins",
+    "comics": [
+        {
+            "title": "Gore Duty",
+            "date": "1/1/2021",
+            "url": "gore-duty",
+            "image": "20210101.png"
+        },
+        {
+            "title": "Nickname",
+            "date": "1/8/2021",
+            "url": "nickname",
+            "image": "20210108.png"
+        },
+        {
+            "title": "Shiny",
+            "date": "1/15/2021",
+            "url": "shiny",
+            "image": "20210115.png"
+        },
+        {
+            "title": "Good Mushrooms",
+            "date": "1/22/2021",
+            "url": "good-mushrooms",
+            "image": "20210122.png"
+        },
+        {
+            "title": "Guards",
+            "date": "1/29/2021",
+            "url": "guards",
+            "image": "20210129.png"
+        },
+        {
+            "title": "Bad Ones",
+            "date": "2/5/2021",
+            "url": "bad-ones",
+            "image": "20210205.png"
+        },
+        {
+            "title": "HAROOOMM",
+            "date": "2/12/2021",
+            "url": "harooomm",
+            "image": "20210212.png"
+        },
+        {
+            "title": "Farming",
+            "date": "2/19/2021",
+            "url": "farming",
+            "image": "20210219.png"
+        },
+        {
+            "title": "Kicks",
+            "date": "2/26/2021",
+            "url": "kicks",
+            "image": "20210226.png"
+        },
+        {
+            "title": "Rest",
+            "date": "3/5/2021",
+            "url": "rest",
+            "image": "20210305.png"
+        },
+        {
+            "title": "Magic",
+            "date": "3/12/2021",
+            "url": "magic",
+            "image": "20210312.png"
+        },
+        {
+            "title": "Commemorative",
+            "date": "3/19/2021",
+            "url": "commemorative",
+            "image": "20210319.png"
+        },
+        {
+            "title": "Sandwiches",
+            "date": "3/26/2021",
+            "url": "sandwiches",
+            "image": "20210326.png"
+        },
+        {
+            "title": "Nap",
+            "date": "4/2/2021",
+            "url": "nap",
+            "image": "20210402.png"
+        },
+        {
+            "title": "Quest",
+            "date": "4/9/2021",
+            "url": "quest",
+            "image": "20210409.png"
+        },
+        {
+            "title": "Fancy",
+            "date": "4/16/2021",
+            "url": "fancy",
+            "image": "20210416.png"
+        },
+        {
+            "title": "Summon",
+            "date": "4/23/2021",
+            "url": "summon",
+            "image": "20210423.png"
+        },
+        {
+            "title": "Not a Portal",
+            "date": "4/30/2021",
+            "url": "not-a-portal",
+            "image": "20210430.png"
+        },
+        {
+            "title": "Still Not a Portal",
+            "date": "5/7/2021",
+            "url": "still-not-a-portal",
+            "image": "20210507.png"
+        },
+        {
+            "title": "Is a Portal",
+            "date": "5/14/2021",
+            "url": "is-a-portal",
+            "image": "20210514.png"
+        },
+        {
+            "title": "Boop",
+            "date": "5/21/2021",
+            "url": "boop",
+            "image": "20210521.png"
+        },
+        {
+            "title": "Nope",
+            "date": "5/28/2021",
+            "url": "nope",
+            "image": "20210528.png"
+        },
+        {
+            "title": "Ragemonster",
+            "date": "6/4/2021",
+            "url": "ragemonster",
+            "image": "20210604.png"
+        },
+        {
+            "title": "Job",
+            "date": "6/11/2021",
+            "url": "job",
+            "image": "20210611.png"
+        },
+        {
+            "title": "Bored",
+            "date": "6/18/2021",
+            "url": "bored",
+            "image": "20210618.png"
+        },
+        {
+            "title": "Fire",
+            "date": "6/25/2021",
+            "url": "fire",
+            "image": "20210625.png"
+        },
+        {
+            "title": "Ice",
+            "date": "7/2/2021",
+            "url": "ice",
+            "image": "20210702.png"
+        },
+        {
+            "title": "Dark",
+            "date": "7/9/2021",
+            "url": "dark",
+            "image": "20210709.png"
+        },
+        {
+            "title": "Pet",
+            "date": "7/16/2021",
+            "url": "pet",
+            "image": "20210716.png"
+        },
+        {
+            "title": "Bear",
+            "date": "7/23/2021",
+            "url": "bear",
+            "image": "20210723.png"
+        },
+        {
+            "title": "Ow",
+            "date": "7/30/2021",
+            "url": "ow",
+            "image": "20210730.png"
+        },
+        {
+            "title": "Legend of Whatever",
+            "date": "8/6/2021",
+            "url": "legend-of-whatever",
+            "image": "20210806.png"
+        },
+        {
+            "title": "Hey! Listen!",
+            "date": "8/13/2021",
+            "url": "hey-listen",
+            "image": "20210813.png"
+        },
+        {
+            "title": "Dance Party",
+            "date": "8/20/2021",
+            "url": "dance-party",
+            "image": "20210820.png"
+        },
+        {
+            "title": "Finger",
+            "date": "8/27/2021",
+            "url": "finger",
+            "image": "20210827.png"
+        },
+        {
+            "title": "Flying",
+            "date": "9/3/2021",
+            "url": "flying",
+            "image": "20210903.png"
+        },
+        {
+            "title": "Elves",
+            "date": "9/10/2021",
+            "url": "elves",
+            "image": "20210910.png"
+        },
+        {
+            "title": "Boom",
+            "date": "9/17/2021",
+            "url": "boom",
+            "image": "20210917.png"
+        },
+        {
+            "title": "Gear Up",
+            "date": "9/24/2021",
+            "url": "gear-up",
+            "image": "20210924.png"
+        },
+        {
+            "title": "Take",
+            "date": "10/1/2021",
+            "url": "take",
+            "image": "20211001.png"
+        },
+        {
+            "title": "Idea",
+            "date": "10/8/2021",
+            "url": "idea",
+            "image": "20211008.png"
+        },
+        {
+            "title": "Trip",
+            "date": "10/15/2021",
+            "url": "trip",
+            "image": "20211015.png"
+        },
+        {
+            "title": "Dibs",
+            "date": "10/22/2021",
+            "url": "dibs",
+            "image": "20211022.png"
+        },
+        {
+            "title": "New Boss",
+            "date": "10/29/2021",
+            "url": "new-boss",
+            "image": "20211029.png"
+        },
+        {
+            "title": "Respawn",
+            "date": "11/5/2021",
+            "url": "respawn",
+            "image": "20211105.png"
+        },
+        {
+            "title": "Back",
+            "date": "11/12/2021",
+            "url": "back",
+            "image": "20211112.png"
+        },
+        {
+            "title": "Dumb",
+            "date": "11/19/2021",
+            "url": "dumb",
+            "image": "20211119.png"
+        },
+        {
+            "title": "Sledding",
+            "date": "11/26/2021",
+            "url": "sledding",
+            "image": "20211126.png"
+        },
+        {
+            "title": "Not Dead",
+            "date": "12/3/2021",
+            "url": "not-dead",
+            "image": "20211203.png"
+        },
+        {
+            "title": "New Quest",
+            "date": "12/10/2021",
+            "url": "new-quest",
+            "image": "20211210.png"
+        },
+        {
+            "title": "Eat",
+            "date": "12/17/2021",
+            "url": "eat",
+            "image": "20211217.png"
+        },
+        {
+            "title": "Cake",
+            "date": "12/24/2021",
+            "url": "cake",
+            "image": "20211224.png"
+        },
+        {
+            "title": "Town",
+            "date": "12/31/2021",
+            "url": "town",
+            "image": "20211231.png"
+        }
+    ]
+}
