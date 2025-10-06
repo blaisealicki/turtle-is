@@ -25,8 +25,8 @@ element.insertAdjacentHTML('afterbegin',
 				<li><a href="./pixels.html">Pixels</a></li>
 				<li><a href="./comics.html">Comics</a></li>
 				<li><a href="./ninjahc.html">Comic Book</a></li>
-				<li><a href="./comic?c=localandhost">Local And Host</a></li>
-				<li><a href="./comic?c=goblins">Goblins</a></li>
+				<li><a href="./comic/?c=localandhost">Local And Host</a></li>
+				<li><a href="./comic/?c=goblins">Goblins</a></li>
 			</ul>
 		</li>
 		<li>Other Works
